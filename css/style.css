@@ -73,6 +73,10 @@ h1 h2{
     color: white;
 }
 
+.prixVente{
+    background-color: #6C98E1;
+}
+
 .vente{
     background-color: #232628;
 }
@@ -81,8 +85,22 @@ h1 h2{
     background-color: rgb(61, 57, 54);
 }
 
+hr{
+    color: #c2c2c3;
+}
+
+.VehiculesRecents{
+    background-color: #393f45;
+}
+
 .carteVente p{
     font-family: Open Sans;
+}
+
+del{
+    font-family: Open Sans, sans-serif;
+    color: #232628;
+    font-size: 12px;
 }
 
 .border-cc6119{
@@ -101,6 +119,11 @@ h1 h2{
 
 #ClubBleu{
     color: #6C98E1;
+}
+
+.iconesPourquoi{
+    width: 100px;
+    height: auto;
 }
 
 footer p{
