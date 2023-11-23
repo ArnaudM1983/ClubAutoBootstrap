@@ -126,6 +126,22 @@ del{
     height: auto;
 }
 
+fieldset{
+    font-family: Open Sans, sans-serif;
+}
+
+.inputContact{
+    background-color: #ECEFF3e8;
+}
+
+.boutonContact{
+    background-color: #6C98E1;
+    color: white;
+    width: 150px;
+    border-bottom: solid #3c5d92;
+    font-weight: bold;
+}
+
 footer p{
     color: white;
     font-family: Montserrat, sans-serif;
