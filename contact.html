@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Club Auto: Vente et location de voitures de qualité. Découvrez notre gamme diversifiée, des ofrres spéciales et un service client exceptionnel">
+    <!-- description en 160 caractères max-->
+    <title>CLUB AUTO - Page d'accueil</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="navbar navbar-dark bg-dark align-items-start justify-content-around ps-5 pe-5">
+
+            <h1 class="navbar-brand fs-2 d-md-flex">CLUB AUTO</h1>
+            <div class="adresse d-none d-md-flex">
+                <img src="/images/icone-adresse.png" alt="logo adresse">
+                <p class="navbar-text orange-text pt-0">ADRESSE : <br><span class="titleBlancAdresse"> AVENUE CHARLES DE
+                        GAULLE<br> 75000
+                        PARIS</span> </p>
+            </div>
+            <div class="telephone d-flex">
+                <img src="/images/icon-telephone.png" alt="logo telephone">
+                <p class="navbar-text orange-text pt-0">TÉLÉPHONE : <br><span class="titleBlanc">01 23 45 67 89</span>
+                </p>
+            </div>
+            <div class="ouverture d-none d-md-flex">
+                <p class="navbar-text orange-text pt-0">OUVERTURE : <span class="titleBlanc">Du lundi au
+                        samedi</span><br>
+                    HORAIRES : <span class="titleBlanc">De 9h à 17h</span></p>
+            </div>
+            <div class="reseauxSociaux d-none d-md-flex">
+                <a href="https://www.facebook.com" target="_blank"><img src="/images/facebook.svg"
+                        alt="logo facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="/images/twitter.svg" alt=""></a>
+            </div>
+            <div>
+                <button class="navbar-toggler d-sm-none" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content"><span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </header>
+        <header class="navbar navbar-expand-sm navbar-light bg-light justify-content-end pe-5 pt-0 pb-0 ps-3 mb-5">
+
+            <nav class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                <ul class="navbar-nav d-md">
+                    <li class="nav-item fw-bold"><a class="nav-link" href="index.html"
+                            title="Vers la page d'accueil du site Club Auto">ACCUEIL</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="vente.html"
+                            title="Vers la page de vente du site">VENTE</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#">LOCATION</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="contact.html"
+                            title="Vers la page de contact du site">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main class="container-fluid">
+        <form class="col-10 mx-auto py-4 border px-4">
+            <h1 class="fs-2 fw-bold pb-4">CONTACTEZ NOUS</h1>
+            <fieldset>
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="mb-3">
+                            <label for="Prenom" class="form-label">Prénom*</label>
+                            <input type="text" name="Prenom" id="Prenom" class="inputContact form-control ps-3 rounded-0"
+                                placeholder="Entrez votre prénom">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Nom" class="form-label">Nom*</label>
+                            <input type="text" name="Nom" id="Nom" class="inputContact form-control ps-3 rounded-0"
+                                placeholder="Entrez votre nom">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email*</label>
+                            <input type="email" name="email" id="email" class="inputContact form-control ps-3 rounded-0"
+                                placeholder="Entrez une adresse mail valide">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telephone" class="form-label">Téléphone*</label>
+                            <input type="number" name="telephone" id="telephone"
+                                class="inputContact form-control ps-3 rounded-0" placeholder="Phone number">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" id="message" cols="10" rows="5" placeholder="Ecrivez votre message"
+                                class="inputContact form-control ps-3 rounded-0"></textarea>
+                            <button type="submit" class="btn mt-3 boutonContact">ENVOYEZ</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row mx-0 footer bg-dark g-4 pt-4 px-5 mt-5 justify-content-center">
+            <div class="col-12 col-lg-3">
+                <p class="fw-bold"><span id="ClubBleu">CLUB </span>AUTO</p>
+                <p class="text-footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas officiis cum animi
+                    aliquid molestiae ducimus incidunt quaerat, iure dolore!</p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="fw-bold">HORAIRES D'OUVERTURE</p>
+                <p class="text-footer">Lundi - Samedi : <span class="text-horaires">09:00 - 17:00</span> <br>Dimanche et
+                    jours feriés : <span class="text-horaires">Fermé</span></p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="fw-bold">NEWSLETTER</p>
+                <input type="email" placeholder="Entrez votre email">
+                <!-- Ajouter bouton newsletter-->
+                <p class="text-footer">Inscrivez-vous pour recevoir les dernières offres</p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="fw-bold">RESEAUX SOCIAUX</p>
+                <a href="https://facebook.com"><img src="/images/facebook-carré.svg" alt="logo facebook"></a>
+                <a href="https://twitter.com"><img src="/images/twitter-carré.png" alt="logo twitter"></a>
+                <a href="https://instagram.com"><img src="/images/instagram-carré.svg" alt="logo instagram"></a>
+                <a href="https://google.com"><img src="/images/google-carré.svg" alt="logo google"></a>
+                <a href="https://youtube.com"><img src="/images/youtube-carré.svg" alt="logo youtube"></a>
+            </div>
+            <div class="border-top mt-3 pt-3 ms-6">
+                <p class="text-footer d-flex justify-content-center">Copyright Club Auto - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

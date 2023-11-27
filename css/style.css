@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300&display=swap');
+
+body p{
+    font-family: Open Sans, sans-serif ;
+    color: #232628;
+    font-size: 14px;
+}
+
+h1 h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+}
+
+.adresse{
+    display: flex;
+    align-items: flex-start;
+}
+
+.adresse img{
+    max-width: 100%;
+    height: auto;
+    max-height: 40px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.telephone img{
+    max-width: 100%;
+    height: auto;
+    max-height: 40px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.telephone{
+    display: flex;
+    align-items: flex-start;
+}
+
+.titleBlanc{
+    color: white;
+    font-weight: bold;
+}
+
+.orange-text{
+    color: #CC6119;
+}
+
+.titleBlanc{
+    color: white;
+}
+
+.reseauxSociaux img{
+    width: 40px;
+    height: auto;
+}
+
+.navbar-text,
+.titleBlancAdresse,
+.titleBlanc,
+.ouverture{
+    font-size: 12px;
+}
+
+.nav-item a:hover{
+    background-color: #CC6119;
+    color:  white;
+}
+
+.slogan{
+    background-color: #232628;
+    color: white;
+}
+
+.prixVente{
+    background-color: #6C98E1;
+}
+
+.vente{
+    background-color: #232628;
+}
+
+.carteVente{
+    background-color: rgb(61, 57, 54);
+}
+
+hr{
+    color: #c2c2c3;
+}
+
+.VehiculesRecents{
+    background-color: #393f45;
+}
+
+.carteVente p{
+    font-family: Open Sans;
+}
+
+del{
+    font-family: Open Sans, sans-serif;
+    color: #232628;
+    font-size: 12px;
+}
+
+.border-cc6119{
+    border-bottom: 3px solid #CC6119;
+}
+
+.li-vente a:hover{
+    background-color: white;
+    color: #232628;
+}
+
+.list-options img{
+    width: 15px;
+    height: 15px;
+}
+
+#ClubBleu{
+    color: #6C98E1;
+}
+
+.iconesPourquoi{
+    width: 70px;
+    height: auto;
+}
+
+.boutonPourquoi{
+    background-color: #6C98E1;
+    color: white;
+    width: 240px;
+    height: 50px;
+    border-bottom: solid #b2c8ea;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+fieldset{
+    font-family: Open Sans, sans-serif;
+}
+
+.inputContact{
+    background-color: #ECEFF3e8;
+}
+
+.boutonContact{
+    background-color: #6C98E1;
+    color: white;
+    width: 150px;
+    border-bottom: solid #3c5d92;
+    font-weight: bold;
+}
+
+footer p{
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.text-footer{
+    color: #c2c2c3;
+}
+
+.text-horaires{
+    color: white;
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+}
+
