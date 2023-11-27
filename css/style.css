@@ -4,7 +4,7 @@
 body p{
     font-family: Open Sans, sans-serif ;
     color: #232628;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h1 h2{
@@ -122,8 +122,18 @@ del{
 }
 
 .iconesPourquoi{
-    width: 100px;
+    width: 70px;
     height: auto;
+}
+
+.boutonPourquoi{
+    background-color: #6C98E1;
+    color: white;
+    width: 240px;
+    height: 50px;
+    border-bottom: solid #b2c8ea;
+    font-weight: bold;
+    border-radius: 2px;
 }
 
 fieldset{
