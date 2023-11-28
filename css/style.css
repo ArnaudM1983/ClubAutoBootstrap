@@ -63,12 +63,28 @@ h1 h2{
     font-size: 12px;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     background-color: #CC6119;
     color:  white;
 }
 
-.slogan{
+.background-section{
+    background-image: url(/images/vehicule3.jpg);
+    background-size: cover;
+      background-position: center;
+}
+
+.li-vente a:hover{
+    background-color: white;
+    color: black;
+    border-top: #CC6119 solid 3px;
+}
+
+.ul-vente{
+    background-color: #232628;
+}
+
+.slogan {
     background-color: #232628;
     color: white;
 }
@@ -105,11 +121,6 @@ del{
 
 .border-cc6119{
     border-bottom: 3px solid #CC6119;
-}
-
-.li-vente a:hover{
-    background-color: white;
-    color: #232628;
 }
 
 .list-options img{
