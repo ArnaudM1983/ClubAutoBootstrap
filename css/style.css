@@ -69,7 +69,7 @@ h1 h2{
 }
 
 .background-section{
-    background-image: url(/images/vehicule3.jpg);
+    background-image: url(images/vehicule3.jpg);
     background-size: cover;
       background-position: center;
 }
